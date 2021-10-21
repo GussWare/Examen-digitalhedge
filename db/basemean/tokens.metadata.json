@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"basemean.tokens"},{"v":2,"key":{"token":1},"name":"token_1","ns":"basemean.tokens","background":true}],"uuid":"a4c0a097e6dd4ad79aa99b5b02f2cb15"}
