@@ -1,0 +1,50 @@
+{
+    "name":"Sistem Template",
+    "description":"Template base del sistema, aqui contendra los keys que se utilizaran en polyglot para la internacionalización del sistema",
+    "idioma":"es_Es",
+    "default":true,
+    "tags": [
+        {
+            "key":"GENERAL_ERROR_NOT_FOUND",
+            "description":"Mensaje generico para cuando no se encuentra un registro.",
+            "value":"Registro no encontrado."
+        },
+        {
+            "key":"GENERAL_ERROR_API_NOT_FOUND",
+            "description":"Mensaje generico para cuando el router no encuentra una API.",
+            "value":"Api no encontrada."
+        },
+
+        {
+            "key":"USERS_ERROR_EMAIL_ALREADY_TAKEN",
+            "description":"Mensaje de error cuando un usuario ya tiene este email registrado.",
+            "value":"Correo electrónico ya tomado."
+        },
+        {
+            "key":"USERS_ERROR_USER_NOT_FOUND",
+            "description":"Mensaje de error cuando no se encuentra el usuario en la base de datos.",
+            "value":"Usuario no encontrado."
+        },
+        {
+            "key":"USERS_ERROR_INCORRECT_EMAIL_AND_OR_PASSWORD",
+            "description":"Mensaje de error al intentar iniciar sesión.",
+            "value":"Coreo electrónico y/o contraseña incorrectos."
+        },
+
+        {
+            "key":"AUTH_ERROR_PLEASE_AUTHENTICATE",
+            "description":"Mensaje de error cuando un usuario no firmado intenta acceder a un area restringida.",
+            "value":"Por favor, inicia sesión."
+        },
+        {
+            "key":"AUTH_ERROR_PASSWORD_RESET_FAILED",
+            "description":"Mensaje de error al intentar restablcer la contraseña del usuario.",
+            "value":"Error al restablecer la contraseña."
+        },
+        {
+            "key":"AUTH_ERROR_EMAIL_VERIFICATION_FAILED",
+            "description":"Mensaje de error al verificar el correo electrónico del usuario registrado.",
+            "value":"La verificación del correo electrónico ha fallado."
+        }
+    ]
+}
